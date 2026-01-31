@@ -1,5 +1,5 @@
 import Link from "next/link";
-export default function Home() {
+export default function Blog() {
   return (
     <div>
       <header className="border bg-white shadow-md p-6 ">
@@ -12,7 +12,7 @@ export default function Home() {
       </header>
       <main>
         <div>
-          <h1 className="text-3xl font-bold text-center mt-8 mb-200">Welcome to My Portfolio</h1>
+          <h1 className="text-3xl font-bold text-center mt-8 mb-200">Blog Page</h1>
         </div>
       </main>
       <div>

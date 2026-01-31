@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link"
 export default function Home() {
   return (
     <div>
@@ -12,7 +12,7 @@ export default function Home() {
       </header>
       <main>
         <div>
-          <h1 className="text-3xl font-bold text-center mt-8 mb-200">Welcome to My Portfolio</h1>
+          <h1 className="text-3xl font-bold text-center mt-8 mb-200">Home Page</h1>
         </div>
       </main>
       <div>
