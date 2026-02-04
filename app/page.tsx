@@ -1,27 +1,13 @@
-import Link from "next/link";
+import { Header } from "@/components/common/Header";
+
 export default function Home() {
   return (
     <div>
-      <header className="border bg-white shadow-md p-6 ">
-        <nav className="flex gap-6 justify-center items-center">
-          <Link href="/Home">Home</Link>
-          <Link href="/About">About</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/contact">Contact</Link>
-        </nav>
-      </header>
-      <main>
-        <div>
-          <h1 className="text-3xl font-bold text-center mt-8 mb-200">Welcome to My Portfolio</h1>
-        </div>
+      <Header />
+      <main className="container mx-auto px-6 py-12">
+        <h1 className="text-4xl font-bold mb-6 text-center">Welcome to Portfolio</h1>
+        {/* Your home content here */}
       </main>
-      <div>
-
-      </div>
-      <footer className="border-t p-4 text-center mt-8">
-        This is my footer
-      </footer>
     </div>
-
-  )
+  );
 }
