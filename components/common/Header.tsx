@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/common/ThemeToggle";
 
 export function Header() {
@@ -23,7 +22,7 @@ export function Header() {
                 <li><Link href="/Home">Home</Link></li>
                 <li><Link href="/About">About</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
-                <li><Link href="/contact"><Button>Contact</Button></Link></li>
+                <li><Link href="/contact">Contact</Link></li>
               </ul>
             </nav>
             </div>
