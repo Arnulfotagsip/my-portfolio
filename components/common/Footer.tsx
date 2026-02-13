@@ -37,10 +37,6 @@ export function Footer() {
         </div>
 
       </div>
-
-      <div className="text-center text-xs text-gray-200 mt-6">
-        © {new Date().getFullYear()} Arnulfo Tagsip. All rights reserved.
-      </div>
     </footer>
   );
 }

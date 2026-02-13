@@ -4,7 +4,7 @@ export default function Contact() {
 
       <main className="container mx-auto px-6 py-12">
         <h1 className="text-4xl font-bold mb-6 text-center">Contact</h1>
-        {/* Contact content */}
+
       </main>
     </div>
   );
