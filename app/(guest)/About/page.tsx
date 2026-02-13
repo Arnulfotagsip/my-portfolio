@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MapPin , Wrench } from "lucide-react";
+import { MapPin , User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function About() {
@@ -23,7 +23,7 @@ export default function About() {
             <span>Sanmiguel Cordova Cebu</span>
           </p>
            <p className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300 mt-2">
-            <Wrench size={15} />
+            <User size={15} />
             <span>Junior Developer</span>
           </p>
           <div className="inline-flex gap-2 mt-2">
@@ -47,12 +47,9 @@ export default function About() {
         <div className="mt-8 max-w-lg">
           <h1 className="text-xl font-bold mb-4">My Skills</h1>
           <div className="mb-6">
-            <h2 className="text-lg font-semibold">KKK COMPANY</h2>
-            <p className="text-sm text-gray-600 dark:text-gray-300 italic mb-1">
-             Katulog Kaon Kalibang
-            </p>
-            <p className="text-sm text-gray-700 dark:text-gray-400 leading-relaxed">
-              Ayaw ninyu eh judge kay dili ni basta basta akoang skills wamo kabalo padung pamo pauli nako!
+            <h2 className="text-lg font-semibold">KKK<span className="text-sm text-gray-600 dark:text-gray-300 italic mb-1">( Katulog Kaon Kalibang)</span></h2>
+            <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed mt-2">
+            Ayaw mo’g dali-dali ug judge nako kay dili ni trial version akong skills, full package ni. Wamo kahibaw unsa ko ka-grind behind the scenes. Samtang kamo padung pauli, ako padung pa sa sunod nga milestone. Nagmata pa mo, natug nako kay human na ko sa akong mission. Dili ko hilig og flex, pero kung resulta na ang istoryahan, di ko magpa-ubos. Hinay ko mudagan pero diretso sa finish line. 
             </p>
           </div>
         </div>
