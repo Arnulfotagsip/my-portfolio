@@ -2,14 +2,12 @@ export function Footer() {
   return (
     <footer className="bg-gray-500 text-white py-6 mt-12">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-sm">
-
+       
 
         <div className="text-left">
           <h1 className="font-bold text-lg mb-2">Contact Me</h1>
           <ul className=" flex flex-col gap-1">
             <li>Gmail: Tagsiparnulfo26@gmail.com </li>
-            <li>Instagram: <a href="https://www.instagram.com/aetherz10/">Aetherz10</a></li>
-            <li>Facebook: <a href="https://www.facebook.com/arnulfo.tagsip">Arnulfo Tagsip</a></li>
             <li>Github: <a href="https://github.com/Arnulfotagsip">Arnulfo Tagsip</a></li>
 
           </ul>
@@ -21,8 +19,6 @@ export function Footer() {
           <ul className=" flex flex-col gap-1">
             <li>Community Connect</li>
             <li>Garbage Monitoring</li>
-            <li>Attendance Tracking</li>
-            <li>Lost & Found</li>
           </ul>
         </div>
 

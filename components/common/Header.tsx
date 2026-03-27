@@ -12,7 +12,7 @@ export function Header() {
               <ThemeToggle />
             <nav>
               <ul className="flex items-center gap-6 text-sm font-medium">
-                <li><Link href="/Home">Home</Link></li>
+                <li><Link href="/">Home</Link></li>
                 <li><Link href="/About">About</Link></li>
                  <li><Link href="/projects">Projects</Link></li>
                 <li><Link href="/blog">Blog</Link></li>

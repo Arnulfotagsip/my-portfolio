@@ -5,10 +5,13 @@ export default function GuestLayout({ children }: Readonly<{ children: React.Rea
   return (
     <div className="flex flex-col h-screen">
       <Header />
-      <main className="flex-1">
+      <main className="flex-grow ">
         {children}
       </main>
-      <Footer />
+      <div className="py-6 mt-12">
+        <Footer />
+      </div>
+
     </div>
   );
 }
